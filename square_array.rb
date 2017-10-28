@@ -1,5 +1,11 @@
 def square_array(array)
-  new_array = []
+  squared = []
   array.each {|x| new_array << x**2}
-  new_array
 end
+
+def square_array_with_collect(array)
+  array.collect {|x| x**2}
+end
+
+array = [1, 2, 3]
+square_array_with_collect(array)
