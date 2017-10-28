@@ -8,4 +8,4 @@ def square_array_with_collect(array)
 end
 
 array = [1, 2, 3]
-square_array_with_collect(array)
+puts square_array_with_collect(array).inspect
